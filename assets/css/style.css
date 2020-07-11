@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/airbnb-cereal-app');
+
 :root{
     --playfair: 'playfair display',sans-serif;
     --airbnb: 'Airbnb Cereal App', sans-serif;
@@ -7,9 +10,6 @@
     --gradient:linear-gradient(180deg, rgba(26, 26, 26, 0.9) 0%, rgba(77, 77, 77, 0.95) 48.44%, rgba(23, 23, 23, 0.85) 100%);
     --weight:500 !important;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/airbnb-cereal-app');
 
 html{
     scroll-behavior: smooth !important;
@@ -37,11 +37,11 @@ body{
 }
 
 .navbar-brand{
-    font-family: var(--playfair);
+    font-family: var(--playfair) !important;
 }
 
 .play{
-    font-family: var(--playfair);
+    font-family: var(--playfair) !important;
 }
 
 .air{
